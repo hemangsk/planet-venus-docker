@@ -23,6 +23,10 @@ body {
 img {
     border: 0;
 }
+.content img{
+    max-width:100%;
+    height:auto
+}
 h1,
 .feedflare {
     display: none
