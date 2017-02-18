@@ -9,8 +9,11 @@ body {
     font-family: Roboto, 'Gill Sans', Optima, Verdana, sans-serif;
     line-height: 180%
 }
+.main-heading-row{
+    margin-right: 9em !important;
+}
 .content-container{
-        max-width: 728px !important;
+    max-width: 728px !important;
 }
 #footer {
     clear: both;
@@ -90,9 +93,6 @@ h1,h2,h3,h4,h5,h6{
 .main-content {
     margin-top: 2em;
 }
-
-
-
 @media (max-width: 768px) {
   .title {
       font-size: 6em;
@@ -101,4 +101,9 @@ h1,h2,h3,h4,h5,h6{
       height: 10em;
       margin-top: 1em;
   }
+}
+@media (max-width: 992px){
+   .main-heading-row{
+      margin-right: 0em !important;
+    }
 }
