@@ -21,7 +21,7 @@ body {
     font-size: small
 }
 img {
-    border: 0
+    border: 0;
 }
 h1,
 .feedflare {
@@ -56,7 +56,7 @@ li {
     clear: both
 }
 .article-link{
-      border-bottom: 1px dotted black;
+    border-bottom: 1px dotted black;
     padding-bottom: 0.2em;
 }
 .article-link:hover{
